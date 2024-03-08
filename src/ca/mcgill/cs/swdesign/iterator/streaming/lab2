@@ -1,0 +1,12 @@
+1 You are provided with a Movie class, a StreamingPlatform class and a Tester class with the Main method,
+
+a) The Streaming Platform wants to add a new kind of Entertainment to their collection: TV Shows. TV Shows have a Director, Genre and numEpisodes.
+Implement this class and modify the starter code so that the StreamingPlatform class can keep track of both TV Shows and Movies in its collection. Follow good design principles.
+
+b) Using the Strategy design pattern, create a method findEntertainment in the StreamingPlatform class to find Entertainment by Director or by Genre
+Demonstrate the usage in the Tester class with suitable examples.
+
+2
+ a) Make it so that only one instance of the StreamingPlatform can be created. Use an appropriate design pattern.
+
+b) Draw a UML diagram of your code from questions 1 and 2
