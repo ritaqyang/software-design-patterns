@@ -9,11 +9,8 @@ import java.util.List;
 public class StreamingPlatform {
 
     private static StreamingPlatform instance;
-    private List<Entertainment> aEntertainmentList;
+    private List<Entertainment> aEntertainmentList = new ArrayList<>();
 
-    private StreamingPlatform(){
-
-    }
     public static StreamingPlatform getInstance(){
         if (instance == null){
             instance = new StreamingPlatform();
