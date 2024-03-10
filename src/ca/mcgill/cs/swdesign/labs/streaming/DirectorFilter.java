@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.iterator.streaming;
+package ca.mcgill.cs.swdesign.labs.streaming;
 
 public class DirectorFilter implements Filter {
 

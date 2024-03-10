@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.sorting;
+package ca.mcgill.cs.swdesign.comparator;
 import java.util.Comparator;
 
 public class Game

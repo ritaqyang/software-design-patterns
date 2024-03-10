@@ -1,9 +1,9 @@
-package ca.mcgill.cs.swdesign.sorting;
+package ca.mcgill.cs.swdesign.comparator;
 import java.io.StringWriter;
 import java.util.*;
 
-import ca.mcgill.cs.swdesign.sorting.Card.Rank;
-import ca.mcgill.cs.swdesign.sorting.Card.Suit;
+import ca.mcgill.cs.swdesign.comparator.Card.Rank;
+import ca.mcgill.cs.swdesign.comparator.Card.Suit;
 
 public class Deck implements Iterable<Card>
 {

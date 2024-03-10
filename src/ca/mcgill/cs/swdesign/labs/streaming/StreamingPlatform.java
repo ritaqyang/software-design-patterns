@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.iterator.streaming;
+package ca.mcgill.cs.swdesign.labs.streaming;
 
 import java.util.ArrayList;
 import java.util.List;

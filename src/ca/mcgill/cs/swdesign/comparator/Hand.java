@@ -1,8 +1,7 @@
-package ca.mcgill.cs.swdesign.sorting;
+package ca.mcgill.cs.swdesign.comparator;
 import java.io.StringWriter;
 import java.util.*;
-import ca.mcgill.cs.swdesign.sorting.Card.Rank;
-import ca.mcgill.cs.swdesign.sorting.Card.Suit;
+
 /** todo:  winter 2016 midterm question
 
 Objects of class Hand aggregate exactly 10 objects of class card.
