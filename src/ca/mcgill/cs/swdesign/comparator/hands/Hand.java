@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.comparator;
+package ca.mcgill.cs.swdesign.comparator.hands;
 import java.io.StringWriter;
 import java.util.*;
 

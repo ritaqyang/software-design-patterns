@@ -1,8 +1,8 @@
-package ca.mcgill.cs.swdesign.comparator;
+package ca.mcgill.cs.swdesign.equals.card;
 
 import java.util.Comparator;
 
-public class Card implements Comparable<Card>
+public class Card
 {
     public enum Rank
     { ACE, TWO, THREE, FOUR, FIVE, SIX,
@@ -49,34 +49,22 @@ public class Card implements Comparable<Card>
     }
 
 
-    @Override
-    public int compareTo(Card pCard)
-    {
-        assert pCard!=null;
-        return getRank().compareTo(pCard.getRank());
-    }
-
-    /**
-     * Static factory method to create a comparator capable
-     * of comparing cards by rank.
-     * Achieve the same feature with the ByRankComparator class
-     *
-     * @return The created comparator.
-     */
-    public static Comparator<Card> createByRankComparator() {
-        return new Comparator<Card>() {
-            @Override
-            public int compare(Card o1, Card o2) {
-                assert o1!= null && o2!= null;
-                return o1.aRank.compareTo(o2.aRank);
-            }
-        };
-    }
 
     @Override
     public String toString()
     {
         return getRank() + " of " + getSuit();
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null) return false;
+        if (getClass() != obj.getClass()) return false;
+
+        Card other = (Card) obj;
+        return aRank.equals(other.aRank) && aSuit.equals(other.aSuit);
+    }
 
 }
+
+
