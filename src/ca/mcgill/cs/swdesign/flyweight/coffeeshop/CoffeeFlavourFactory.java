@@ -11,6 +11,8 @@ public class CoffeeFlavourFactory {
 
     public CoffeeFlavour getCoffeeFlavour(String flavourName){
         return aFlavours.computeIfAbsent(flavourName, CoffeeFlavour::new);
+        //(flavourName, key -> new CoffeeFlavour(key));
+
     }
 
     public int getTotalFlavours(){return aFlavours.size(); }

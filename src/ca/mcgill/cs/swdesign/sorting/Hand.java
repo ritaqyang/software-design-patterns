@@ -3,19 +3,17 @@ import java.io.StringWriter;
 import java.util.*;
 import ca.mcgill.cs.swdesign.sorting.Card.Rank;
 import ca.mcgill.cs.swdesign.sorting.Card.Suit;
-/* winter 2016 midterm question
+/** todo:  winter 2016 midterm question
 
 Objects of class Hand aggregate exactly 10 objects of class card.
 implement the mechanism necessary to support sorting hands using the Arrays.sort function of the JDK
 
 Hands should be ordered in terms of cards of a certain rank.
 Clients should be able to compare hands by number of aces, number of kings, or number of fours, etc.
-
 If a client chooses to compare hands by number of aces, one ace should come before a hand with 2 aces.
-
 If two hands have the same number of aces, they are equal. Same logic applies to any rank
 
-your solution should include the strategy design pattern and an object factory method
+todo: your solution should include the strategy design pattern and an object factory method
 
 
  */
