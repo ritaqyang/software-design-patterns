@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="inheritance methods and constructors">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/inheritance/abstractclass/animal/AbstractAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/inheritance/abstractclass/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/inheritance/abstractclass/animal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/inheritance/abstractclass/recipe/AbstractRecipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/inheritance/abstractclass/recipe/Recipe1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/inheritance/abstractclass/recipe/RecipeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/inheritance/abstractclass/recipe/RecipeWithMicrowave.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="encapsulation info leaking examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/coffeeshop/CoffeeFlavour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/coffeeshop/CoffeeFlavour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/coffeeshop/CoffeeFlavourFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/coffeeshop/CoffeeFlavourFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/vendingmachine/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/vendingmachine/Beverage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710603463995</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="abstract class recipe">
+      <created>1710604557487</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710604557487</updated>
+    </task>
+    <task id="LOCAL-00015" summary="encapsulation info leaking examples">
+      <created>1710605977670</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710605977670</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +208,8 @@
     <MESSAGE value="composite box for product delivery" />
     <MESSAGE value="composite pattern for shapes and composite shape" />
     <MESSAGE value="inheritance methods and constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="inheritance methods and constructors" />
+    <MESSAGE value="abstract class recipe" />
+    <MESSAGE value="encapsulation info leaking examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="encapsulation info leaking examples" />
   </component>
 </project>

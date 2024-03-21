@@ -12,7 +12,6 @@ import java.util.Map;
 public class Beverage {
     //  flyweight factory
     private static final Map<String, Beverage> beverages = new HashMap<>();
-
     private final String name;
     private final int price;
 
@@ -23,6 +22,7 @@ public class Beverage {
 
     // Factory method to get or create flyweight instances
     public static Beverage getBeverage(String name) {
+
         return beverages.computeIfAbsent(name, t -> new Beverage(name));
     }
 

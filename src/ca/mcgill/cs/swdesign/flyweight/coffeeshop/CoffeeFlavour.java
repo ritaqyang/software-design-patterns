@@ -1,7 +1,6 @@
 package ca.mcgill.cs.swdesign.flyweight.coffeeshop;
 
-//concrete flyweight
-
+//Todo: concrete flyweight
 public class CoffeeFlavour implements CoffeeOrder{
     private final String aFlavour;
     public CoffeeFlavour(String pFlavour){
