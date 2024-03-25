@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="java reflection for testing">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/FlashlightTest2.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="cloud config testing using stub">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/FlashlightTest3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/Flashlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/Flashlight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/Reflection2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/Reflection2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711398359086</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="cloud config testing using stub">
+      <created>1711399622211</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711399622211</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +242,7 @@
     <MESSAGE value="beverages" />
     <MESSAGE value="composite exercise setup / duplicate" />
     <MESSAGE value="java reflection for testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="java reflection for testing" />
+    <MESSAGE value="cloud config testing using stub" />
+    <option name="LAST_COMMIT_MESSAGE" value="cloud config testing using stub" />
   </component>
 </project>
