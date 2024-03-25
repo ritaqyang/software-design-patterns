@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="cloud config testing using stub">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/FlashlightTest3.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="testing private method using reflection">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert/IntroducedShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/exercises/StackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711399622211</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="testing private method using reflection">
+      <created>1711400590483</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711400590483</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +252,7 @@
     <MESSAGE value="composite exercise setup / duplicate" />
     <MESSAGE value="java reflection for testing" />
     <MESSAGE value="cloud config testing using stub" />
-    <option name="LAST_COMMIT_MESSAGE" value="cloud config testing using stub" />
+    <MESSAGE value="testing private method using reflection" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing private method using reflection" />
   </component>
 </project>

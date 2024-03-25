@@ -31,6 +31,7 @@ public class CompositeShow implements Show{
         String result = "";
         for (Show e : aElements){
             result += e.description();
+            result += " ";
         }
         return result;
     }
