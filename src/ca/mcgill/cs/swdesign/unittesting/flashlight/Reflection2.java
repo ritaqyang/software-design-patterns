@@ -1,8 +1,5 @@
 package ca.mcgill.cs.swdesign.unittesting.flashlight;
-
 import java.lang.reflect.Field;
-
-import static org.junit.jupiter.api.Assertions.fail;
 
 public class Reflection2 {
     /**

@@ -46,5 +46,15 @@ public class Flashlight {
         this.brightness = (this.brightness + 1) % 6;
     }
 
+    /**
+     * sets flashlight brightness according to the cloud config setting
+     */
+    public void setBrightnessFromCloud(){
+        if (aCloudConfig.isPresent()){
+            int b = aCloudConfig.get().getCloudConfigBrightness();
+            setBrightness(b);
+        }
+    }
+
 
 }
