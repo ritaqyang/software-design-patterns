@@ -1,5 +1,7 @@
 package ca.mcgill.cs.swdesign.composite.amazonbox;
 
+import java.lang.reflect.Method;
+
 public class DeliveryService {
 
     private Box box;
@@ -27,5 +29,15 @@ public class DeliveryService {
                         )
                 )
         );
+
+
+        System.out.println("-------------printing all the methods under class CompositeBox --------------");
+
+        Class<CompositeBox> class1 = CompositeBox.class;
+        for (Method method : class1.getDeclaredMethods()){
+            System.out.println(method);
+        };
+
+
     }
 }

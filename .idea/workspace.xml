@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="encapsulation info leaking examples">
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="composite exercise setup / duplicate">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert/CompositeShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/bicardsource/BiCardSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/bicardsource/BiCardSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/bicardsource/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/bicardsource/CardSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/exercises/CosineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/exercises/MathMinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/exercises/StringConcatationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/Flashlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/FlashlightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/Reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/flashlight/Reflection2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/coffeeshop/CoffeeFlavour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/coffeeshop/CoffeeFlavour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/coffeeshop/CoffeeFlavourFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/coffeeshop/CoffeeFlavourFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/vendingmachine/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/vendingmachine/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/amazonbox/DeliveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/amazonbox/DeliveryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +60,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/composite2&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -56,6 +68,8 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2" />
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -180,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710605977670</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="beverages">
+      <created>1711053483478</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711053483478</updated>
+    </task>
+    <task id="LOCAL-00017" summary="composite exercise setup / duplicate">
+      <created>1711053955432</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711053955432</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +238,8 @@
     <MESSAGE value="inheritance methods and constructors" />
     <MESSAGE value="abstract class recipe" />
     <MESSAGE value="encapsulation info leaking examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="encapsulation info leaking examples" />
+    <MESSAGE value="beverages" />
+    <MESSAGE value="composite exercise setup / duplicate" />
+    <option name="LAST_COMMIT_MESSAGE" value="composite exercise setup / duplicate" />
   </component>
 </project>
