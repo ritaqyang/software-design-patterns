@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="created decorator for introduced show">
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="implemented iterable">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert/Show2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/CompositeShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Concert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/IntroducedShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Iterator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Show.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Show2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert/CompositeShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert/CompositeShow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +26,8 @@
       <list>
         <option value="module-info" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,7 +55,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/composite2"
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/composite/concert2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,6 +63,7 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
@@ -224,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711408915994</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="implemented iterable">
+      <created>1711412086522</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711412086522</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +275,7 @@
     <MESSAGE value="cloud config testing using stub" />
     <MESSAGE value="testing private method using reflection" />
     <MESSAGE value="created decorator for introduced show" />
-    <option name="LAST_COMMIT_MESSAGE" value="created decorator for introduced show" />
+    <MESSAGE value="implemented iterable" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented iterable" />
   </component>
 </project>
