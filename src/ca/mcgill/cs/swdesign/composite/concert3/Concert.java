@@ -23,6 +23,13 @@ public class Concert implements Show
         aRunningTime = pTime;
     }
 
+
+    /**
+     * copy constructor for concert
+     * @param pConcert
+     * @return a copy of pConcert
+     */
+
     public Concert(Concert pConcert)
     {
         this(pConcert.aTitle, pConcert.aPerformer, pConcert.aRunningTime);

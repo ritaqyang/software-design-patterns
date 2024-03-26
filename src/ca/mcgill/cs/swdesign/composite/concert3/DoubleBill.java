@@ -16,6 +16,17 @@ public class DoubleBill implements Show {
     }
 
     /**
+     * copy constructor for DoubleBill
+     * makes a deep copy of the underlying movies
+     *
+     */
+    public DoubleBill(DoubleBill d){
+        movie1 = new Movie(d.movie1);
+        movie2 = new Movie(d.movie2);
+    }
+
+
+    /**
      * @return
      */
     @Override

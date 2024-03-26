@@ -21,6 +21,7 @@ public class Movie implements Show {
         aRunningTime = pTime;
     }
 
+    //copy constructor
     public Movie(Movie pMovie) {
         aTitle = pMovie.aTitle;
         aYear = pMovie.aYear;
