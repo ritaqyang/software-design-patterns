@@ -36,8 +36,26 @@ public class Client {
         list.add(movie1);
         list.add(introM2);
 
-        IntroducedShow exerise2 = new IntroducedShow(new CompositeShow(list), 12, "Tom");
-        System.out.println(exerise2.description());
+        IntroducedShow exercise2 = new IntroducedShow(new CompositeShow(list), 12, "Tom");
+        System.out.println(exercise2.description());
+
+        /*
+         * Client needs to check if show obj is composite before trying to unwrap
+         * The main benefit of declaring only CompositeShow to be iterable is that
+         * we avoid having to have this behavior defined for (and implemented by) classes
+         * for which it makes no sense, namely leaves such as Concert or Movie.
+         *  The disadvantage is that it requires client code that works instances of Show
+         *  to explicitly check whether an instance can be unpacked or not:
+         */
+
+
+        if( wholeShow instanceof CompositeShow )
+        {
+            for( Show subshow : wholeShow )
+            { System.out.println(subshow.description());  }
+        }
+
+
 
 
 

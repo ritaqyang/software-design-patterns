@@ -5,7 +5,7 @@ import java.util.*;
  * Composite class for shows, 2-5 shows, inclusive
  * Using design for contract
  */
-public class CompositeShow implements Show{
+public class CompositeShow implements Show, Iterable<Show>{
 
     public List<Show> aElements = new ArrayList<>();
 
@@ -62,5 +62,13 @@ public class CompositeShow implements Show{
        return new CompositeShow(result);
 
     };
+
+    /**
+     * @return
+     */
+    @Override
+    public Iterator<Show> iterator() {
+        return aElements.iterator();
+    }
 
 }
