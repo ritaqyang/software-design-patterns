@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="implemented iterable">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert/Show2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/CompositeShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Concert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/IntroducedShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Iterator.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Show.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Show2.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="implemented iterable in Show (polymorphic)">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/Ch6Ex9.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/CompositeShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/Concert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/DoubleBill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/IntroducedShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/Show.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Iterator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2/Ch6Ex8.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +26,8 @@
       <list>
         <option value="module-info" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,7 +55,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/composite/concert2"
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/composite/concert3"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,6 +63,7 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite" />
@@ -239,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711412086522</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="implemented iterable in Show (polymorphic)">
+      <created>1711412965680</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711412965680</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +284,7 @@
     <MESSAGE value="testing private method using reflection" />
     <MESSAGE value="created decorator for introduced show" />
     <MESSAGE value="implemented iterable" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented iterable" />
+    <MESSAGE value="implemented iterable in Show (polymorphic)" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented iterable in Show (polymorphic)" />
   </component>
 </project>
