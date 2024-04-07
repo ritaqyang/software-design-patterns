@@ -44,19 +44,15 @@ public class Movie implements Show {
     }
 
     @Override
-    public int hashCode() {
-        return Objects.hash(aRunningTime, aTitle, aYear);
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Movie shows = (Movie) o;
+        return aYear == shows.aYear && aRunningTime == shows.aRunningTime && Objects.equals(aTitle, shows.aTitle);
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj)
-            return true;
-        if (obj == null)
-            return false;
-        if (getClass() != obj.getClass())
-            return false;
-        Movie other = (Movie) obj;
-        return aRunningTime == other.aRunningTime && Objects.equals(aTitle, other.aTitle) && aYear == other.aYear;
+    public int hashCode() {
+        return Objects.hash(aTitle, aYear, aRunningTime);
     }
 }

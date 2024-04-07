@@ -2,6 +2,7 @@ package ca.mcgill.cs.swdesign.composite.concert3;
 
 import java.util.Iterator;
 import java.util.List;
+import java.util.Objects;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
@@ -43,11 +44,11 @@ public class DoubleBill implements Show {
     }
 
     /**
-     * @return
+     * @return a copy of DoubleBill using the copy constructor
      */
     @Override
     public Show copy() {
-        return new DoubleBill(movie1.copy(), movie2.copy());
+        return new DoubleBill(this);
     }
 
     /**
@@ -74,8 +75,19 @@ public class DoubleBill implements Show {
         return Show.super.spliterator();
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        DoubleBill shows = (DoubleBill) o;
+        return Objects.equals(movie1, shows.movie1) && Objects.equals(movie2, shows.movie2);
+    }
 
-   /* public Iterator<Show> iterator() {
+    @Override
+    public int hashCode() {
+        return Objects.hash(movie1, movie2);
+    }
+    /* public Iterator<Show> iterator() {
         return List.of(movie1,movie2).iterator();
     }*/
 

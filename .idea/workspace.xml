@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="DoubleBill">
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="copy constructors + copy()">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/ShowDeepCopyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/ShowDeepCopyTestStubs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/deck/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/deck/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/deck/chapter8E1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/store/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/store/EmailMsgListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/store/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/store/MobileAppListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/store/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/store/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/CompositeShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/CompositeShow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/Concert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/Concert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/DoubleBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/DoubleBill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/IntroducedShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/IntroducedShow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,11 +64,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/composite/concert3"
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/composite/concert3",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ca.mcgill.cs.swdesign.mvc.store" />
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -248,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711454098775</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="copy constructors + copy()">
+      <created>1711455097860</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1711455097860</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +311,7 @@
     <MESSAGE value="implemented iterable" />
     <MESSAGE value="implemented iterable in Show (polymorphic)" />
     <MESSAGE value="DoubleBill" />
-    <option name="LAST_COMMIT_MESSAGE" value="DoubleBill" />
+    <MESSAGE value="copy constructors + copy()" />
+    <option name="LAST_COMMIT_MESSAGE" value="copy constructors + copy()" />
   </component>
 </project>

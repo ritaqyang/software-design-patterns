@@ -48,28 +48,22 @@ public class Concert implements Show
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Concert shows = (Concert) o;
+        return aRunningTime == shows.aRunningTime && Objects.equals(aTitle, shows.aTitle) && Objects.equals(aPerformer, shows.aPerformer);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(aTitle, aPerformer, aRunningTime);
+    }
+
+    @Override
     public Show copy()
     {
         return new Concert(this);
     }
 
-    @Override
-    public int hashCode()
-    {
-        return Objects.hash(aPerformer, aRunningTime, aTitle);
-    }
-
-    @Override
-    public boolean equals(Object obj)
-    {
-        if (this == obj)
-            return true;
-        if (obj == null)
-            return false;
-        if (getClass() != obj.getClass())
-            return false;
-        Concert other = (Concert) obj;
-        return Objects.equals(aPerformer, other.aPerformer) && aRunningTime == other.aRunningTime
-                && Objects.equals(aTitle, other.aTitle);
-    }
 }
