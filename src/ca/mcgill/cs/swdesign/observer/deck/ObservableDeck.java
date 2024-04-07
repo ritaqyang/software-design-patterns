@@ -1,6 +1,7 @@
-package ca.mcgill.cs.swdesign.mvc.deck;
+package ca.mcgill.cs.swdesign.observer.deck;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -9,16 +10,23 @@ import java.util.List;
  * deck are stored in a list and the list of cards in the deck can
  * be obtained by client code using an immutable wrapper object.
  */
-public class Deck
+public class ObservableDeck
 {
     private List<Card> aCards = new ArrayList<>();
+    private final List<Observer> deckObservers = new ArrayList<>();
 
     /**
      * Creates a new deck of 52 cards, shuffled.
      */
-    public Deck()
+    public ObservableDeck()
     {
         shuffle();
+    }
+
+    public void addObserver(Observer o)
+    {
+        assert o != null;
+        deckObservers.add(o);
     }
 
     /**
@@ -35,6 +43,10 @@ public class Deck
             }
         }
         Collections.shuffle(aCards);
+        for (Observer o : deckObservers){
+            o.shuffled(); // notify all observers of this deck
+        }
+
     }
 
     /**
@@ -47,6 +59,9 @@ public class Deck
     {
         assert pCard != null;
         aCards.add(pCard);
+        for (Observer o : deckObservers){
+            o.cardPushed(pCard); // notify all observers of this deck
+        }
     }
 
     /**
@@ -58,7 +73,11 @@ public class Deck
     public Card draw()
     {
         assert !isEmpty();
-        return aCards.remove(aCards.size() - 1);
+        Card c =  aCards.remove(aCards.size() - 1);
+        for (Observer o : deckObservers){
+            o.cardDrawn(c); // notify all observers of this deck
+        }
+        return c;
     }
 
     /**

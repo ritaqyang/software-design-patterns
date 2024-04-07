@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.mvc.store;
+package ca.mcgill.cs.swdesign.observer.store;
 
 public class EmailMsgListener implements Listener{
 
@@ -7,8 +7,8 @@ public class EmailMsgListener implements Listener{
     public EmailMsgListener(String email) {
         this.email = email;
     }
-    public void update(){
+    public void update(Event e){
         //send the email
-        System.out.println("sending email to" + email);
+        System.out.println("sending email to" + email + "to update about " + e);
     }
 }

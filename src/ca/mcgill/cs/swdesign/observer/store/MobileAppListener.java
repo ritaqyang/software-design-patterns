@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.mvc.store;
+package ca.mcgill.cs.swdesign.observer.store;
 
 public class MobileAppListener implements Listener{
     private final String username;
@@ -7,8 +7,8 @@ public class MobileAppListener implements Listener{
         this.username = username;
     }
 
-    public void update(){
-        System.out.println("sends notification through mobile app");
+    public void update(Event e ){
+        System.out.println("sends notification through mobile app to " + username + " about " + e);
 
     }
 

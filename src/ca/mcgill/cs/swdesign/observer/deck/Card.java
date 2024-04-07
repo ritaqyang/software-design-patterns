@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.mvc.deck;
+package ca.mcgill.cs.swdesign.observer.deck;
 
 public class Card {
     public Card(Rank aRank, Suit aSuit) {
