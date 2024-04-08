@@ -1,9 +1,12 @@
-package ca.mcgill.cs.swdesign.comparator.hands.ascendingorder;
+package ca.mcgill.cs.swdesign.comparator.hands.twodirection;
 
 import java.io.StringWriter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Random;
 
-public class Hand implements Comparable<Hand> {
+public class Hand {
 
     private List<Card> aCards = new ArrayList<>();
     public Hand(int num) {
@@ -35,19 +38,26 @@ public class Hand implements Comparable<Hand> {
         return writer.toString();
     }
 
-
-    @Override
-    public int compareTo(Hand h2) {
-        return this.aCards.size() - h2.aCards.size();
+    public static Comparator<Hand> createIncrementComparator(){
+        return new Comparator<Hand>() {
+            @Override
+            public int compare(Hand o1, Hand o2) {
+                return o1.aCards.size() - o2.aCards.size();
+            }
+        };
     }
 
-    public int compareToWrittenOut(Hand h2) {
-        if (this.aCards.size() > h2.aCards.size()) {
-            return 1;
-        } else if (this.aCards.size() < h2.aCards.size()) {
-            return -1;
-        } else {
-            return 0;
-        }
+    public static Comparator<Hand> createDescendingComparator(){
+        return new Comparator<Hand>() {
+            @Override
+            public int compare(Hand o1, Hand o2) {
+                return o2.aCards.size() - o1.aCards.size();
+            }
+        };
     }
+
+
+
+
+
 }

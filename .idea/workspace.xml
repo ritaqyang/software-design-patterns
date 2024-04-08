@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="comparable, iterable">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/ascendingorder/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/ascendingorder/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/ByRankComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/ByRankComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/ascendingorder/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/ascendingorder/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/Game2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Game2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Hand.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="ascending order cards">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/byrank/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/byrank/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/byrank/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/byrank/Hand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/twodirection/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/twodirection/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/twodirection/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/twodirection/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/ascendingorder/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/singleorder/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/ascendingorder/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/singleorder/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/ascendingorder/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/singleorder/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/ascendingorder/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/singleorder/Hand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/comparator/hands",
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/comparator/hands/byrank",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -66,11 +69,11 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/" />
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/byrank" />
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/twodirection" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands" />
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/laptop/comparator" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/subclass" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
@@ -302,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712596708550</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="ascending order cards">
+      <created>1712600287492</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1712600287492</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,7 +327,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Music Library module finished" />
     <MESSAGE value="reorganized" />
     <MESSAGE value="vending machine flyweight done" />
     <MESSAGE value="equals() card with design" />
@@ -342,6 +351,7 @@
     <MESSAGE value="observer pattern: deck, push method" />
     <MESSAGE value="observer pattern: deck, push method, observable deck as a subclass of deck" />
     <MESSAGE value="comparable, iterable" />
-    <option name="LAST_COMMIT_MESSAGE" value="comparable, iterable" />
+    <MESSAGE value="ascending order cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="ascending order cards" />
   </component>
 </project>

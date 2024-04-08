@@ -1,13 +1,9 @@
-package ca.mcgill.cs.swdesign.comparator.hands.ascendingorder;
+package ca.mcgill.cs.swdesign.comparator.hands.byrank;
 
-import java.util.*;
-
-/**
- * compare two hand objects using Comparable interface
- * Compare hands by increasing number of cards in a hand
- * if h1.size > h2.size, return 1
- * if h1.size < h2.size, return -1
- */
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 public class Game
 {
 
@@ -37,8 +33,9 @@ public class Game
 
         System.out.println("----------------------before sorting");
         g.printAllHands();
-        System.out.println("----------------------after sorting by ascending order ");
-        Collections.sort(g.getAllHands());
+        System.out.println("----------------------after sorting  ");
+        Collections.sort(g.getAllHands(), Hand.createByRankComparator(Card.Rank.ACE));
+
         g.printAllHands();
 
 
