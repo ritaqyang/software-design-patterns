@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="observer pattern: deck">
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="observer pattern: deck, push method, observable deck as a subclass of deck">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/laptop/comparable/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/laptop/comparable/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/laptop/comparator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/laptop/comparator/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/iterator/customarray/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/iterator/customarray/CustomArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +23,8 @@
       <list>
         <option value="module-info" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/composite/concert3",
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/comparator/laptop/comparator",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -57,14 +63,17 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/laptop/comparator" />
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/subclass" />
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck2" />
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert3" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite/concert2" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ca.mcgill.cs.swdesign.comparator.laptop" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ca.mcgill.cs.swdesign.iterator.streaming" />
@@ -269,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712518126359</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="observer pattern: deck, push method">
+      <created>1712585945789</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1712585945789</updated>
+    </task>
+    <task id="LOCAL-00029" summary="observer pattern: deck, push method, observable deck as a subclass of deck">
+      <created>1712590314414</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1712590314414</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,8 +307,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lab2 review" />
-    <MESSAGE value="lab2 review fixed" />
     <MESSAGE value="started songFactory, finished flyweight coffeeshop" />
     <MESSAGE value="Music Library module finished" />
     <MESSAGE value="reorganized" />
@@ -309,6 +330,8 @@
     <MESSAGE value="copy constructors + copy()" />
     <MESSAGE value="MVC store example + started Deck example" />
     <MESSAGE value="observer pattern: deck" />
-    <option name="LAST_COMMIT_MESSAGE" value="observer pattern: deck" />
+    <MESSAGE value="observer pattern: deck, push method" />
+    <MESSAGE value="observer pattern: deck, push method, observable deck as a subclass of deck" />
+    <option name="LAST_COMMIT_MESSAGE" value="observer pattern: deck, push method, observable deck as a subclass of deck" />
   </component>
 </project>
