@@ -1,5 +1,6 @@
-package ca.mcgill.cs.swdesign.comparator.hands;
-import java.util.*;
+package ca.mcgill.cs.swdesign.comparator.hands.midtermquestion;
+
+import java.util.Arrays;
 
 public class Game2
 {
@@ -15,7 +16,7 @@ public class Game2
 
         System.out.println("--------------Initialized  8 complete hands of 10 cards --------------");
 
-        Arrays.sort(hands,Hand.createByRankComparator(Card.Rank.ACE));
+        Arrays.sort(hands, Hand.createByRankComparator(Card.Rank.ACE));
 
         System.out.println("--------------After Sorting--------------");
 

@@ -1,6 +1,9 @@
-package ca.mcgill.cs.swdesign.comparator.hands;
+package ca.mcgill.cs.swdesign.comparator.hands.midtermquestion;
+
 import java.io.StringWriter;
-import java.util.*;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.Random;
 
 /** todo:  winter 2016 midterm question
 

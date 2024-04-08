@@ -1,4 +1,5 @@
-package ca.mcgill.cs.swdesign.comparator.hands;
+package ca.mcgill.cs.swdesign.comparator.hands.midtermquestion;
+
 import java.util.Comparator;
 
 public class Game

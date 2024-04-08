@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.comparator.hands;
+package ca.mcgill.cs.swdesign.comparator.hands.ascendingorder;
 
 import java.util.Comparator;
 

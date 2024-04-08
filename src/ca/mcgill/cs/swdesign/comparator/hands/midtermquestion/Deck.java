@@ -1,9 +1,6 @@
-package ca.mcgill.cs.swdesign.comparator.hands;
+package ca.mcgill.cs.swdesign.comparator.hands.midtermquestion;
 import java.io.StringWriter;
 import java.util.*;
-
-import ca.mcgill.cs.swdesign.comparator.hands.Card.Rank;
-import ca.mcgill.cs.swdesign.comparator.hands.Card.Suit;
 
 public class Deck implements Iterable<Card>
 {
@@ -64,9 +61,9 @@ public class Deck implements Iterable<Card>
     public void shuffle()
     {
         aCards.clear();
-        for(Suit suit : Suit.values() )
+        for(Card.Suit suit : Card.Suit.values() )
         {
-            for( Rank rank : Rank.values())
+            for( Card.Rank rank : Card.Rank.values())
             {
                 aCards.add(new Card(rank, suit));
             }
