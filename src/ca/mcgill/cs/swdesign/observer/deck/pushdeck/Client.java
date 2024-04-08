@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.observer.pulldeck;
+package ca.mcgill.cs.swdesign.observer.deck.pushdeck;
 
 public class Client {
 

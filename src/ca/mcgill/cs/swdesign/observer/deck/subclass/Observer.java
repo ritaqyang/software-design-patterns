@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.observer.pushdeck;
+package ca.mcgill.cs.swdesign.observer.deck.subclass;
 
 public interface Observer {
     void shuffled();

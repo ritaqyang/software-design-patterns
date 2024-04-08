@@ -1,31 +1,18 @@
-package ca.mcgill.cs.swdesign.observer.pushdeck;
+package ca.mcgill.cs.swdesign.observer.deck.subclass;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-/**
- * Represents a deck of playing cards. In this version, the cards in the
- * deck are stored in a list and the list of cards in the deck can
- * be obtained by client code using an immutable wrapper object.
- */
-public class ObservableDeck
+public class Deck
 {
     private List<Card> aCards = new ArrayList<>();
-    private final List<Observer> deckObservers = new ArrayList<>();
 
     /**
      * Creates a new deck of 52 cards, shuffled.
      */
-    public ObservableDeck()
+    public Deck()
     {
         shuffle();
-    }
-
-    public void addObserver(Observer o)
-    {
-        assert o != null;
-        deckObservers.add(o);
     }
 
     /**
@@ -42,9 +29,6 @@ public class ObservableDeck
             }
         }
         Collections.shuffle(aCards);
-        for (Observer o : deckObservers){
-            o.shuffled(); // notify all observers of this deck
-        }
 
     }
 
@@ -58,9 +42,6 @@ public class ObservableDeck
     {
         assert pCard != null;
         aCards.add(pCard);
-        for (Observer o : deckObservers){
-            o.cardPushed(pCard); // notify all observers of this deck
-        }
     }
 
     /**
@@ -73,9 +54,6 @@ public class ObservableDeck
     {
         assert !isEmpty();
         Card c =  aCards.remove(aCards.size() - 1);
-        for (Observer o : deckObservers){
-            o.cardDrawn(c); // notify all observers of this deck
-        }
         return c;
     }
 

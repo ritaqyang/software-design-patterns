@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.observer.pushdeck;
+package ca.mcgill.cs.swdesign.observer.deck.subclass;
 
 /**
  * prints the size of the deck whenever it changes
@@ -6,7 +6,7 @@ package ca.mcgill.cs.swdesign.observer.pushdeck;
  * case 2: card pushed
  * case 3: card shuffled
  */
-public class SizeStatus implements Observer{
+public class SizeStatus implements Observer {
 
 
     private int aSize = -1;

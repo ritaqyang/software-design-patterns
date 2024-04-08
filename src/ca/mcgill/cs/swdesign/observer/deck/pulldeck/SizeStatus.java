@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.observer.pulldeck;
+package ca.mcgill.cs.swdesign.observer.deck.pulldeck;
 
 /**
  * prints the size of the deck whenever it changes

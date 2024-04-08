@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.observer.pulldeck;
+package ca.mcgill.cs.swdesign.observer.deck.pushdeck;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,18 +9,28 @@ import java.util.List;
  * deck are stored in a list and the list of cards in the deck can
  * be obtained by client code using an immutable wrapper object.
  */
-public class ObservableDeck implements DeckView
+public class ObservableDeck
 {
     private List<Card> aCards = new ArrayList<>();
     private final List<Observer> deckObservers = new ArrayList<>();
 
-    public ObservableDeck(){shuffle();}
+    /**
+     * Creates a new deck of 52 cards, shuffled.
+     */
+    public ObservableDeck()
+    {
+        shuffle();
+    }
 
     public void addObserver(Observer o)
     {
         assert o != null;
         deckObservers.add(o);
     }
+
+    /**
+     * Reinitializes the deck with all 52 cards, and shuffles them.
+     */
     public void shuffle()
     {
         aCards.clear();
@@ -33,7 +43,7 @@ public class ObservableDeck implements DeckView
         }
         Collections.shuffle(aCards);
         for (Observer o : deckObservers){
-            o.shuffled(this);
+            o.shuffled(); // notify all observers of this deck
         }
 
     }
@@ -49,7 +59,7 @@ public class ObservableDeck implements DeckView
         assert pCard != null;
         aCards.add(pCard);
         for (Observer o : deckObservers){
-            o.cardPushed(this);
+            o.cardPushed(pCard); // notify all observers of this deck
         }
     }
 
@@ -64,7 +74,7 @@ public class ObservableDeck implements DeckView
         assert !isEmpty();
         Card c =  aCards.remove(aCards.size() - 1);
         for (Observer o : deckObservers){
-            o.cardDrawn(this); // notify all observers of this deck
+            o.cardDrawn(c); // notify all observers of this deck
         }
         return c;
     }
@@ -75,14 +85,6 @@ public class ObservableDeck implements DeckView
     public boolean isEmpty()
     {
         return aCards.isEmpty();
-    }
-
-    /**
-     * @return
-     */
-    @Override
-    public Card getLastDrawn() {
-        return null;
     }
 
     /**

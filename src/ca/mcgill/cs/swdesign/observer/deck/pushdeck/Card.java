@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.observer.pushdeck;
+package ca.mcgill.cs.swdesign.observer.deck.pushdeck;
 
 public class Card {
     public Card(Rank aRank, Suit aSuit) {

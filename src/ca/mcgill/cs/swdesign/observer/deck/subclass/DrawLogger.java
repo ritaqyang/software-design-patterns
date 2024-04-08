@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.observer.pulldeck;
+package ca.mcgill.cs.swdesign.observer.deck.subclass;
 
 /**
  * prints any card that is drawn in deck
@@ -9,7 +9,7 @@ public class DrawLogger implements Observer {
      *
      */
     @Override
-    public void shuffled(DeckView d) {
+    public void shuffled() {
         //do nothing
     }
 
@@ -17,16 +17,15 @@ public class DrawLogger implements Observer {
      * @param c
      */
     @Override
-    public void cardDrawn(DeckView d) {
-        System.out.println(d.getLastDrawn() + "is drawn");
-
+    public void cardDrawn(Card c) {
+        System.out.println(c + "is drawn");
     }
 
     /**
      * @param c
      */
     @Override
-    public void cardPushed(DeckView d) {
+    public void cardPushed(Card c) {
 
         // do nothing
 
