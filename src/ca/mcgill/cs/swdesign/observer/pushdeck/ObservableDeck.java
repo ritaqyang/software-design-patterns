@@ -1,7 +1,6 @@
-package ca.mcgill.cs.swdesign.observer.deck;
+package ca.mcgill.cs.swdesign.observer.pushdeck;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 

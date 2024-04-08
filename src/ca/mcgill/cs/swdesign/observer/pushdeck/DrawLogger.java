@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.observer.deck;
+package ca.mcgill.cs.swdesign.observer.pushdeck;
 
 /**
  * prints any card that is drawn in deck

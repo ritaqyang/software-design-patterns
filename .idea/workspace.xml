@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="MVC store example + started Deck example">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/DrawLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/SizeStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/store/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/store/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/store/NotificationService.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="observer pattern: deck">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/deck/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/deck/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/ObservableDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/deck/chapter8E1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/chapter8E1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/store/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/store/EmailMsgListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/store/EmailMsgListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/store/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/store/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/store/MobileAppListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/store/MobileAppListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/store/NotificationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/store/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712511495296</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="observer pattern: deck">
+      <created>1712518126359</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712518126359</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,7 +284,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016 midterm Q1, sorting hands" />
     <MESSAGE value="lab2 review" />
     <MESSAGE value="lab2 review fixed" />
     <MESSAGE value="started songFactory, finished flyweight coffeeshop" />
@@ -318,6 +308,7 @@
     <MESSAGE value="DoubleBill" />
     <MESSAGE value="copy constructors + copy()" />
     <MESSAGE value="MVC store example + started Deck example" />
-    <option name="LAST_COMMIT_MESSAGE" value="MVC store example + started Deck example" />
+    <MESSAGE value="observer pattern: deck" />
+    <option name="LAST_COMMIT_MESSAGE" value="observer pattern: deck" />
   </component>
 </project>
