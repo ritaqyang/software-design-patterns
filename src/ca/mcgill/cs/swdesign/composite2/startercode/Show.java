@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.composite2.concert;
+package ca.mcgill.cs.swdesign.composite2.startercode;
 /**
  * Represents a performance that can take place in a theater. All implementations
  * of this interface should be immutable.

@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.composite2.concert;
+package ca.mcgill.cs.swdesign.composite2.startercode;
 
 import java.util.Objects;
 
