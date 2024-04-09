@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="byrank comparator, anonymous function, factory method">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/GUI/simple/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/GUI/simple/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/GUI/simplemvc/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/GUI/simplemvc/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/GUI/simplemvc/StudentView.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment=" GUI, MVC practice + chapter 6 exercise 7/8 setup">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking/CompositeShow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,31 +38,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/comparator/hands/byrank&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "OverrideImplement.generate.javadoc": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/composite2/unpacking2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ca.mcgill.cs.swdesign.mvc.store" />
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/byrank" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/twodirection" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/laptop/comparator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
@@ -312,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712605805112</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary=" GUI, MVC practice + chapter 6 exercise 7/8 setup">
+      <created>1712679540178</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1712679540178</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,7 +330,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vending machine flyweight done" />
     <MESSAGE value="equals() card with design" />
     <MESSAGE value="laptop" />
     <MESSAGE value="composite box for product delivery" />
@@ -352,6 +354,18 @@
     <MESSAGE value="comparable, iterable" />
     <MESSAGE value="ascending order cards" />
     <MESSAGE value="byrank comparator, anonymous function, factory method" />
-    <option name="LAST_COMMIT_MESSAGE" value="byrank comparator, anonymous function, factory method" />
+    <MESSAGE value=" GUI, MVC practice + chapter 6 exercise 7/8 setup" />
+    <option name="LAST_COMMIT_MESSAGE" value=" GUI, MVC practice + chapter 6 exercise 7/8 setup" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking/Client.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
