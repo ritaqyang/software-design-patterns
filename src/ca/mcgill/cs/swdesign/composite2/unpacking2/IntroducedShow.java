@@ -1,5 +1,8 @@
 package ca.mcgill.cs.swdesign.composite2.unpacking2;
 
+import java.util.Collections;
+import java.util.Iterator;
+
 /**
  * decorator pattern
  */
@@ -16,5 +19,10 @@ public class IntroducedShow implements Show {
     @Override
     public int runningTime() {
         return show.runningTime() + introTime;
+    }
+
+    @Override
+    public Iterator<Show> iterator(){
+        return Collections.emptyIterator();
     }
 }

@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment=" GUI, MVC practice + chapter 6 exercise 7/8 setup">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking/CompositeShow.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment=" unpacking without changing show interface">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/CompositeShow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Concert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Concert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/IntroducedShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/IntroducedShow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Show.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712679540178</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary=" unpacking without changing show interface">
+      <created>1712682575201</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1712682575201</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,7 +342,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="equals() card with design" />
     <MESSAGE value="laptop" />
     <MESSAGE value="composite box for product delivery" />
     <MESSAGE value="composite pattern for shapes and composite shape" />
@@ -355,17 +366,7 @@
     <MESSAGE value="ascending order cards" />
     <MESSAGE value="byrank comparator, anonymous function, factory method" />
     <MESSAGE value=" GUI, MVC practice + chapter 6 exercise 7/8 setup" />
-    <option name="LAST_COMMIT_MESSAGE" value=" GUI, MVC practice + chapter 6 exercise 7/8 setup" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking/Client.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value=" unpacking without changing show interface" />
+    <option name="LAST_COMMIT_MESSAGE" value=" unpacking without changing show interface" />
   </component>
 </project>
