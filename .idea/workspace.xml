@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment=" unpacking without changing show interface">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/CompositeShow.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="visitor pattern">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/CloneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/car/GpsSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/car/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/car/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/car/VehicleCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Concert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Concert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/IntroducedShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/IntroducedShow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2/Show.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +330,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712682575201</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary=" unpacking by changing show interface, show extends Iterable&lt;Show&gt;">
+      <created>1712756595366</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1712756595366</updated>
+    </task>
+    <task id="LOCAL-00036" summary="visitor pattern">
+      <created>1712758218450</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1712758218450</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,8 +359,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="laptop" />
-    <MESSAGE value="composite box for product delivery" />
     <MESSAGE value="composite pattern for shapes and composite shape" />
     <MESSAGE value="inheritance methods and constructors" />
     <MESSAGE value="abstract class recipe" />
@@ -367,6 +382,8 @@
     <MESSAGE value="byrank comparator, anonymous function, factory method" />
     <MESSAGE value=" GUI, MVC practice + chapter 6 exercise 7/8 setup" />
     <MESSAGE value=" unpacking without changing show interface" />
-    <option name="LAST_COMMIT_MESSAGE" value=" unpacking without changing show interface" />
+    <MESSAGE value=" unpacking by changing show interface, show extends Iterable&lt;Show&gt;" />
+    <MESSAGE value="visitor pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="visitor pattern" />
   </component>
 </project>
