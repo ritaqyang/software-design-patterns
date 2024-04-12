@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="visitor pattern">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/CloneFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/car/GpsSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/car/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/car/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/car/VehicleCache.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="prototype pattern">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/universalcomparator/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/universalcomparator/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/universalcomparator/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/universalcomparator/Hand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/universalcomparator/UniversalComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/composite2/unpacking2",
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/comparator/hands/universalcomparator",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -66,11 +62,11 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/universalcomparator" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/byrank" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/twodirection" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
@@ -344,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712758218450</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="prototype pattern">
+      <created>1712864639813</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1712864639814</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -359,7 +362,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="composite pattern for shapes and composite shape" />
     <MESSAGE value="inheritance methods and constructors" />
     <MESSAGE value="abstract class recipe" />
     <MESSAGE value="encapsulation info leaking examples" />
@@ -384,6 +386,7 @@
     <MESSAGE value=" unpacking without changing show interface" />
     <MESSAGE value=" unpacking by changing show interface, show extends Iterable&lt;Show&gt;" />
     <MESSAGE value="visitor pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="visitor pattern" />
+    <MESSAGE value="prototype pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="prototype pattern" />
   </component>
 </project>
