@@ -32,6 +32,13 @@ public class Hand {
         assert pMaxCards > 0 && pCompareMethod != null;
         generateRandomHand(pMaxCards);
         compareMethod = pCompareMethod;
+        aCards.sort(compareMethod); //sort the generated hand of cards according to the sorting method
+    }
+
+    public Hand(int pMaxCards){
+        assert pMaxCards >0 ;
+        generateRandomHand(pMaxCards);
+        aCards.sort(compareMethod); //sort the generated hand of cards according to the sorting method
     }
 
     /**

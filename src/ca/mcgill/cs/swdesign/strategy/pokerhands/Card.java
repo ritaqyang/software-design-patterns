@@ -73,6 +73,16 @@ public class Card implements Comparable<Card>
         };
     }
 
+    public static Comparator<Card> createBySuitComparator(){
+        return new Comparator<Card>() {
+            @Override
+            public int compare(Card o1, Card o2) {
+               assert o1 != null && o2 != null;
+               return o1.aSuit.compareTo(o2.aSuit);
+            }
+        };
+    }
+
     @Override
     public String toString()
     {
