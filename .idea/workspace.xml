@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="using optional&lt;T&gt; to implement black and white joker">
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="flyweight pre-initialization + lazy creation card example both array + map implementation">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/exercises/NumberLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/exercises/NumberLoader2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/exercises/NumberLoaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Hand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker",
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/flyweight/cards2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -61,11 +60,11 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/cards2" />
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/nullobject/strategycomparehand" />
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/nullobject/cards" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/strategy/pokerhands" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/iterator" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/universalcomparator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
@@ -381,7 +380,35 @@
       <option name="project" value="LOCAL" />
       <updated>1713021968599</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="using optional&lt;T&gt; to implement black and white joker, finished">
+      <created>1713022610446</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1713022610446</updated>
+    </task>
+    <task id="LOCAL-00044" summary="null object solution to handle null comparator">
+      <created>1713024529432</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1713024529432</updated>
+    </task>
+    <task id="LOCAL-00045" summary="flyweight in cards class ch4 ex9">
+      <created>1713025167255</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1713025167255</updated>
+    </task>
+    <task id="LOCAL-00046" summary="flyweight pre-initialization + lazy creation card example both array + map implementation">
+      <created>1713027236727</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1713027236728</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -396,10 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java reflection for testing" />
-    <MESSAGE value="cloud config testing using stub" />
-    <MESSAGE value="testing private method using reflection" />
-    <MESSAGE value="created decorator for introduced show" />
     <MESSAGE value="implemented iterable" />
     <MESSAGE value="implemented iterable in Show (polymorphic)" />
     <MESSAGE value="DoubleBill" />
@@ -421,7 +444,11 @@
     <MESSAGE value="sorted hand class done" />
     <MESSAGE value="optional cat example" />
     <MESSAGE value="using optional&lt;T&gt; to implement black and white joker" />
-    <option name="LAST_COMMIT_MESSAGE" value="using optional&lt;T&gt; to implement black and white joker" />
+    <MESSAGE value="using optional&lt;T&gt; to implement black and white joker, finished" />
+    <MESSAGE value="null object solution to handle null comparator" />
+    <MESSAGE value="flyweight in cards class ch4 ex9" />
+    <MESSAGE value="flyweight pre-initialization + lazy creation card example both array + map implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="flyweight pre-initialization + lazy creation card example both array + map implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
