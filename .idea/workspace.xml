@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="bicardsource test suite">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/CompositeShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Concert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/IntroducedShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Show.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/TestCompositeShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/TestConcert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="completed chapter 6 exercise 8, 11, 12, 13(comments in client.java)">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,13 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709921440230</updated>
-    </task>
-    <task id="LOCAL-00004" summary="lab2 review fixed">
-      <created>1709938415365</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709938415365</updated>
     </task>
     <task id="LOCAL-00005" summary="started songFactory, finished flyweight coffeeshop">
       <created>1710007126167</created>
@@ -508,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713040366910</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="completed chapter 6 exercise 8, 11, 12, 13(comments in client.java)">
+      <created>1713049085166</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1713049085167</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="observer pattern: deck, push method" />
     <MESSAGE value="observer pattern: deck, push method, observable deck as a subclass of deck" />
     <MESSAGE value="comparable, iterable" />
     <MESSAGE value="ascending order cards" />
@@ -548,7 +540,8 @@
     <MESSAGE value="pokerhand test" />
     <MESSAGE value="100% branch and statement coverage" />
     <MESSAGE value="bicardsource test suite" />
-    <option name="LAST_COMMIT_MESSAGE" value="bicardsource test suite" />
+    <MESSAGE value="completed chapter 6 exercise 8, 11, 12, 13(comments in client.java)" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed chapter 6 exercise 8, 11, 12, 13(comments in client.java)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
