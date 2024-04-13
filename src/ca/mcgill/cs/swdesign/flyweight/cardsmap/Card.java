@@ -1,17 +1,18 @@
-package ca.mcgill.cs.swdesign.flyweight.cards;
+package ca.mcgill.cs.swdesign.flyweight.cardsmap;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Chapter 4 Exercise 9
  * implement flyweight design pattern
  * so that card objects that exist are unique instances
  * use pre-initialization strategy
+ * try using Map to store the flyweights
  */
 public class Card {
 
     //Flyweight store
-    private static final Card[][] CARDS = new Card[Suit.values().length][Rank.values().length];
+    private static final HashMap<Integer, Card> cards = new HashMap<>();
 
     private final Rank aRank;
     private final Suit aSuit;
@@ -23,7 +24,8 @@ public class Card {
         {
             for( Rank rank : Rank.values() )
             {
-                CARDS[suit.ordinal()][rank.ordinal()] = new Card(rank, suit);
+                int key = suit.hashCode() + rank.hashCode();
+                cards.put(key, new Card(rank, suit));
             }
         }
     }
@@ -46,7 +48,7 @@ public class Card {
 
     public static Card getCard(Rank pRank, Suit pSuit){
         assert pRank != null && pSuit != null;
-        return CARDS[pSuit.ordinal()][pRank.ordinal()];
+        return cards.get(pRank.hashCode() + pSuit.hashCode());
     }
 
 
