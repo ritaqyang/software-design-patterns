@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="enhanced hand class done (sorted)">
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="sorted hand class done">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation/pokerhands/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation/pokerhands/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation/pokerhands/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation/pokerhands/Hand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation/pokerhands/HandView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/cat/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/cat/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/strategy/pokerhands/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/strategy/pokerhands/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/strategy/pokerhands/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/strategy/pokerhands/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/strategy/pokerhands/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/strategy/pokerhands/Hand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/strategy/pokerhands",
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/interfacesegregation",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -60,11 +64,11 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/strategy/pokerhands" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/iterator" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/universalcomparator" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/byrank" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
@@ -359,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712951340630</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="sorted hand class done">
+      <created>1712952159825</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1712952159825</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,7 +385,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="encapsulation info leaking examples" />
     <MESSAGE value="beverages" />
     <MESSAGE value="composite exercise setup / duplicate" />
     <MESSAGE value="java reflection for testing" />
@@ -399,6 +409,7 @@
     <MESSAGE value="prototype pattern" />
     <MESSAGE value="universal comparator done" />
     <MESSAGE value="enhanced hand class done (sorted)" />
-    <option name="LAST_COMMIT_MESSAGE" value="enhanced hand class done (sorted)" />
+    <MESSAGE value="sorted hand class done" />
+    <option name="LAST_COMMIT_MESSAGE" value="sorted hand class done" />
   </component>
 </project>
