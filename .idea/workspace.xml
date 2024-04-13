@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="100% branch and statement coverage">
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="bicardsource test suite">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/CompositeShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Concert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/IntroducedShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Show.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/TestCompositeShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/TestConcert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/bicardsource/BiCardSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/bicardsource/BiCardSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/bicardsource/BiCardSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/bicardsource/BiCardSourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/bicardsource/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/bicardsource/Card.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +55,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/flyweight/cards2",
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/composite2/deepcopy",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -60,11 +65,11 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/cards2" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/nullobject/strategycomparehand" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/nullobject/cards" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
@@ -78,7 +83,7 @@
       <recent name="ca.mcgill.cs.swdesign.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BiCardSourceTest">
+  <component name="RunManager">
     <configuration name="BiCardSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="comp303_practice" />
       <extension name="coverage">
@@ -159,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709921440230</updated>
-    </task>
-    <task id="LOCAL-00003" summary="lab2 review">
-      <created>1709938253334</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1709938253334</updated>
     </task>
     <task id="LOCAL-00004" summary="lab2 review fixed">
       <created>1709938415365</created>
@@ -503,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713037212586</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="bicardsource test suite">
+      <created>1713040366909</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1713040366910</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,7 +523,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="observer pattern: deck" />
     <MESSAGE value="observer pattern: deck, push method" />
     <MESSAGE value="observer pattern: deck, push method, observable deck as a subclass of deck" />
     <MESSAGE value="comparable, iterable" />
@@ -543,7 +547,8 @@
     <MESSAGE value="stack tests finished" />
     <MESSAGE value="pokerhand test" />
     <MESSAGE value="100% branch and statement coverage" />
-    <option name="LAST_COMMIT_MESSAGE" value="100% branch and statement coverage" />
+    <MESSAGE value="bicardsource test suite" />
+    <option name="LAST_COMMIT_MESSAGE" value="bicardsource test suite" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -565,7 +570,7 @@
     <SUITE FILE_PATH="coverage/comp303_practice$TestPokerHand_testIsStraightFlush_WrongRank.ic" NAME="TestPokerHand.testIsStraightFlush_WrongRank Coverage Results" MODIFIED="1713038295897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ca.mcgill.cs.swdesign.unittesting.straightflush.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/comp303_practice$BiCardSourceTest.ic" NAME="BiCardSourceTest Coverage Results" MODIFIED="1713040160314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/comp303_practice$BiCardSourceTest.ic" NAME="BiCardSourceTest Coverage Results" MODIFIED="1713040322877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ca.mcgill.cs.swdesign.unittesting.bicardsource.*</FILTER>
     </SUITE>
   </component>
