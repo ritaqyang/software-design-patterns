@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="stack tests finished">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/straightflush/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/straightflush/PokerHand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/straightflush/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/straightflush/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/straightflush/TestPokerHand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="pokerhand test">
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/straightflush/TestPokerHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/straightflush/TestPokerHand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +75,63 @@
       <recent name="ca.mcgill.cs.swdesign.sorting" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.TestPokerHand.testIsStraightFlush_WrongRank">
+    <configuration name="TestPokerHand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comp303_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcgill.cs.swdesign.unittesting.straightflush.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.mcgill.cs.swdesign.unittesting.straightflush" />
+      <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.unittesting.straightflush.TestPokerHand" />
+      <option name="METHOD_NAME" value="testIsStraightFlush_WrongSuit" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPokerHand.testIsStraightFlush_WrongRank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comp303_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcgill.cs.swdesign.unittesting.straightflush.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.mcgill.cs.swdesign.unittesting.straightflush" />
+      <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.unittesting.straightflush.TestPokerHand" />
+      <option name="METHOD_NAME" value="testIsStraightFlush_WrongRank" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPokerHand.testIsStraightFlush_WrongSuit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comp303_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcgill.cs.swdesign.unittesting.straightflush.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.mcgill.cs.swdesign.unittesting.straightflush" />
+      <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.unittesting.straightflush.TestPokerHand" />
+      <option name="METHOD_NAME" value="testIsStraightFlush_WrongSuit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestPokerHand.testIsStraightFlush_WrongRank" />
+        <item itemvalue="JUnit.TestPokerHand" />
+        <item itemvalue="JUnit.TestPokerHand.testIsStraightFlush_WrongSuit" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709921440230</updated>
-    </task>
-    <task id="LOCAL-00001" summary="comp303 practice code">
-      <created>1709921683150</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1709921683150</updated>
     </task>
     <task id="LOCAL-00002" summary="2016 midterm Q1, sorting hands">
       <created>1709928830524</created>
@@ -432,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713033618999</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="pokerhand test">
+      <created>1713036460697</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1713036460698</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -447,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="copy constructors + copy()" />
     <MESSAGE value="MVC store example + started Deck example" />
     <MESSAGE value="observer pattern: deck" />
     <MESSAGE value="observer pattern: deck, push method" />
@@ -472,7 +523,8 @@
     <MESSAGE value="number loader using reflection + testing" />
     <MESSAGE value="empty string test" />
     <MESSAGE value="stack tests finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack tests finished" />
+    <MESSAGE value="pokerhand test" />
+    <option name="LAST_COMMIT_MESSAGE" value="pokerhand test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

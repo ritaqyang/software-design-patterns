@@ -38,16 +38,28 @@ public class TestPokerHand{
 
     }
     @Test
-    public void testIsStraightFlush_WrongRanks(){
+    public void testIsStraightFlush_WrongSuit(){
         PokerHand h = new PokerHand(
-                Card.get(Rank.FIVE, Suit.CLUBS),
-                Card.get(Rank.FIVE, Suit.CLUBS),
-                Card.get(Rank.FIVE, Suit.CLUBS),
-                Card.get(Rank.FIVE, Suit.CLUBS),
-                Card.get(Rank.FIVE, Suit.CLUBS));
+                Card.get(Rank.ACE, Suit.CLUBS),
+                Card.get(Rank.TWO, Suit.CLUBS),
+                Card.get(Rank.THREE, Suit.CLUBS),
+                Card.get(Rank.FOUR, Suit.CLUBS),
+                Card.get(Rank.FIVE, Suit.DIAMONDS));
         assertFalse(invokeIsStraightFlush(h));
 
     }
+    @Test
+    public void testIsStraightFlush_WrongRank(){
+        PokerHand h = new PokerHand(
+                Card.get(Rank.ACE, Suit.CLUBS),
+                Card.get(Rank.TWO, Suit.CLUBS),
+                Card.get(Rank.THREE, Suit.CLUBS),
+                Card.get(Rank.FOUR, Suit.CLUBS),
+                Card.get(Rank.FOUR, Suit.CLUBS));
+        assertFalse(invokeIsStraightFlush(h));
+
+    }
+
 
 
 }
