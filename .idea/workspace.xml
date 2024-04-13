@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="empty string test">
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/exercises/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/exercises/StackTest.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="stack tests finished">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/straightflush/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/straightflush/PokerHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/straightflush/Rank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/straightflush/Suit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/straightflush/TestPokerHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +75,7 @@
       <recent name="ca.mcgill.cs.swdesign.comparator.laptop" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.mcgill.cs.swdesign.unittesting.straightflush" />
       <recent name="ca.mcgill.cs.swdesign.iterator.streaming" />
       <recent name="ca.mcgill.cs.swdesign.sorting" />
     </key>
@@ -419,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713033302159</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="stack tests finished">
+      <created>1713033618999</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1713033618999</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -434,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DoubleBill" />
     <MESSAGE value="copy constructors + copy()" />
     <MESSAGE value="MVC store example + started Deck example" />
     <MESSAGE value="observer pattern: deck" />
@@ -459,7 +471,8 @@
     <MESSAGE value="flyweight pre-initialization + lazy creation card example both array + map implementation" />
     <MESSAGE value="number loader using reflection + testing" />
     <MESSAGE value="empty string test" />
-    <option name="LAST_COMMIT_MESSAGE" value="empty string test" />
+    <MESSAGE value="stack tests finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack tests finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
