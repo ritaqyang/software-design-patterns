@@ -16,40 +16,17 @@ import java.util.Random;
 public class Hand {
 
     private List<Card> aCards = new ArrayList<>();
-    private Comparator<Card> compareMethod = Card.createByRankComparator();
-
-
-    /**
-     * Creates a new, empty hand, which can hold
-     * a maximum of pMaxCards. Allows specifying a sorting order
-     * other than the default (by rank) order.
-     *
-     * @param pMaxCards The maximum number of cards allowed in this hand.
-     * @pre pMaxCards > 0;
-     * @pre pCompareMethod!=null
-     */
-    public Hand(int pMaxCards, Comparator<Card> pCompareMethod) {
-        assert pMaxCards > 0 && pCompareMethod != null;
-        generateRandomHand(pMaxCards);
-        compareMethod = pCompareMethod;
-        aCards.sort(compareMethod); //sort the generated hand of cards according to the sorting method
-    }
 
     public Hand(int pMaxCards){
         assert pMaxCards >0 ;
         generateRandomHand(pMaxCards);
-        aCards.sort(compareMethod); //sort the generated hand of cards according to the sorting method
+
     }
 
-    /**
-     * Adds card to this hand and sorts it according to the this hand's sorting method
-     * @param c
-     * @pre c != null
-     */
     public void addCardToHand(Card c ){
         assert c != null;
         this.aCards.add(c);
-        aCards.sort(this.compareMethod);
+
     }
 
     // Method to generate a random hand of 10 cards

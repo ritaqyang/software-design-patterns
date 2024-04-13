@@ -1,7 +1,16 @@
 package ca.mcgill.cs.swdesign.nullvalues.optionaltype.whiteblackjoker;
 
 import java.util.Comparator;
+import java.util.Optional;
 
+/**
+ * chapter 4 exercise 5
+ * changing the card design to include white and black jokers
+ * use optional type to return the rank and suit of the cards
+ * white joker comes after any cards, black comes after white
+ * any card < white < black
+ * white and black joker doesn't have rank and suit
+ */
 public class Card implements Comparable<Card>
 {
     public enum Rank
@@ -17,8 +26,11 @@ public class Card implements Comparable<Card>
         CLUBS, DIAMONDS, SPADES, HEARTS
     }
 
-    private final Rank aRank;
-    private final Suit aSuit;
+    private enum Joker{WHITE, BLACK}
+
+    private final Optional<Rank> aRank;
+    private final Optional<Suit> aSuit;
+    private final Optional<Joker> aJoker;
 
     /**
      * @param pRank The index of the rank in RANKS
@@ -28,16 +40,52 @@ public class Card implements Comparable<Card>
     public Card(Rank pRank, Suit pSuit)
     {
         assert pRank != null && pSuit != null;
-        aRank = pRank;
-        aSuit = pSuit;
+        aRank = Optional.of(pRank);
+        aSuit = Optional.of(pSuit);
+        aJoker = Optional.empty();
     }
+
+    /**
+     * constructor for a joker card
+     * @param pIsWhite a boolean value indicating the color of the joker
+     */
+    public Card(boolean pIsWhite)
+    {
+        aRank = Optional.empty();
+        aSuit = Optional.empty();
+        if( pIsWhite )
+        {
+            aJoker = Optional.of(Joker.WHITE);
+        }
+        else
+        {
+            aJoker = Optional.of(Joker.BLACK);
+        }
+    }
+
+    public boolean isJoker()
+    {
+        return aJoker.isPresent();
+    }
+
+    public boolean isWhiteJoker()
+    {
+        return aJoker.isPresent() && aJoker.get() == Joker.WHITE;
+    }
+
+    public boolean isBlackJoker()
+    {
+        return aJoker.isPresent() && aJoker.get() == Joker.BLACK;
+    }
+
+    /**
 
     /**
      * @return The rank of the card.
      */
     public Rank getRank()
     {
-        return aRank;
+        return aRank.get();
     }
 
     /**
@@ -45,7 +93,7 @@ public class Card implements Comparable<Card>
      */
     public Suit getSuit()
     {
-        return aSuit;
+        return aSuit.get();
     }
 
 
@@ -53,35 +101,24 @@ public class Card implements Comparable<Card>
     public int compareTo(Card pCard)
     {
         assert pCard!=null;
-        return getRank().compareTo(pCard.getRank());
+        if( isJoker() && pCard.isJoker() )
+        {
+            return aJoker.get().compareTo(pCard.aJoker.get());
+        }
+        else if( isJoker() && !pCard.isJoker())
+        {
+            return 1;
+        }
+        else if( !isJoker() && pCard.isJoker() )
+        {
+            return -1;
+        }
+        else
+        {
+            return aRank.get().compareTo(pCard.aRank.get());
+        }
     }
 
-    /**
-     * Static factory method to create a comparator capable
-     * of comparing cards by rank.
-     * Achieve the same feature with the ByRankComparator class
-     *
-     * @return The created comparator.
-     */
-    public static Comparator<Card> createByRankComparator() {
-        return new Comparator<Card>() {
-            @Override
-            public int compare(Card o1, Card o2) {
-                assert o1!= null && o2!= null;
-                return o1.aRank.compareTo(o2.aRank);
-            }
-        };
-    }
-
-    public static Comparator<Card> createBySuitComparator(){
-        return new Comparator<Card>() {
-            @Override
-            public int compare(Card o1, Card o2) {
-               assert o1 != null && o2 != null;
-               return o1.aSuit.compareTo(o2.aSuit);
-            }
-        };
-    }
 
     @Override
     public String toString()

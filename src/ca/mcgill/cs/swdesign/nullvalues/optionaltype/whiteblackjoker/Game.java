@@ -22,8 +22,8 @@ public class Game
         }
     }
     public static void main(String[] args){
-        Hand hand1 = new Hand(15, Card.createBySuitComparator());
-        Hand hand2 = new Hand(15, Card.createBySuitComparator());
+        Hand hand1 = new Hand(15);
+        Hand hand2 = new Hand(15);
         Hand hand3 = new Hand(8);
         Hand hand4 = new Hand(9);
 
