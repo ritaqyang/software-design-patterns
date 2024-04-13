@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="number loader using reflection + testing">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/exercises/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="empty string test">
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/exercises/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/unittesting/exercises/StackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -413,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713031818391</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="empty string test">
+      <created>1713033302159</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1713033302159</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implemented iterable in Show (polymorphic)" />
     <MESSAGE value="DoubleBill" />
     <MESSAGE value="copy constructors + copy()" />
     <MESSAGE value="MVC store example + started Deck example" />
@@ -453,7 +458,8 @@
     <MESSAGE value="flyweight in cards class ch4 ex9" />
     <MESSAGE value="flyweight pre-initialization + lazy creation card example both array + map implementation" />
     <MESSAGE value="number loader using reflection + testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="number loader using reflection + testing" />
+    <MESSAGE value="empty string test" />
+    <option name="LAST_COMMIT_MESSAGE" value="empty string test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
