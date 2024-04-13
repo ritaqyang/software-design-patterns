@@ -1,16 +1,11 @@
 package ca.mcgill.cs.swdesign.nullvalues.optionaltype.whiteblackjoker;
 
 import java.io.StringWriter;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 /**
- * Enhanced hand class that is kept in sorted order
- * using s parameterizable sorting order
- * using Strategy pattern to allow clients to decide how cards should be sorted
- * The cards in the hand should be sorted according to the required order at all times
+ *
+ * The cards in the hand should be sorted by rank, and sorted at all times
  */
 
 public class Hand {
@@ -20,12 +15,14 @@ public class Hand {
     public Hand(int pMaxCards){
         assert pMaxCards >0 ;
         generateRandomHand(pMaxCards);
+        Collections.sort(aCards);
 
     }
 
     public void addCardToHand(Card c ){
         assert c != null;
         this.aCards.add(c);
+        Collections.sort(aCards);
 
     }
 
@@ -33,7 +30,7 @@ public class Hand {
     private void generateRandomHand(int num) {
         Random random = new Random();
 
-        for (int i = 0; i <num; i++) {
+        for (int i = 0; i <num-2; i++) {
             // Generate random rank and suit
             Card.Rank randomRank = Card.Rank.values()[random.nextInt(Card.Rank.values().length)];
             Card.Suit randomSuit = Card.Suit.values()[random.nextInt(Card.Suit.values().length)];
@@ -41,6 +38,9 @@ public class Hand {
             // Create card and add to hand
             aCards.add(new Card(randomRank, randomSuit));
         }
+        aCards.add(new Card(true));
+        aCards.add(new Card(false));
+
     }
 
     @Override

@@ -29,17 +29,10 @@ public class Game
 
         Game g = new Game();
         g.setAllHands( Arrays.asList(hand1,hand2,hand3,hand4));
-
-        System.out.println("printing all hands, first two sorted by suit, second 2 sorted by rank ");
         g.printAllHands();
 
 
 
-
-
     }
-
-
-
 
 }

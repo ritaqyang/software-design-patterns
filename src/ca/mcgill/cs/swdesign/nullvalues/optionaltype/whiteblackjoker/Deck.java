@@ -44,6 +44,8 @@ public class Deck
                 aCards.add(new Card(rank, suit));
             }
         }
+        aCards.add(new Card(true));
+        aCards.add(new Card(false));
         Collections.shuffle(aCards);
     }
 

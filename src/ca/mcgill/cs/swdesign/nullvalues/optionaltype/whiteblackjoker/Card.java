@@ -123,6 +123,10 @@ public class Card implements Comparable<Card>
     @Override
     public String toString()
     {
+        if (isBlackJoker()){ return "Black Joker"; }
+        if (isWhiteJoker()){ return "White Joker"; }
+
+
         return getRank() + " of " + getSuit();
     }
 

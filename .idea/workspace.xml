@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="sorted hand class done">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation/pokerhands/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation/pokerhands/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation/pokerhands/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation/pokerhands/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation/pokerhands/HandView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/cat/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/cat/Client.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="using optional&lt;T&gt; to implement black and white joker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker/Hand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/interfacesegregation",
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -64,11 +61,11 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/interfacesegregation" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/strategy/pokerhands" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/iterator" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/universalcomparator" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/unpacking2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
@@ -370,7 +367,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712952159825</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="optional cat example">
+      <created>1713020820337</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1713020820338</updated>
+    </task>
+    <task id="LOCAL-00042" summary="using optional&lt;T&gt; to implement black and white joker">
+      <created>1713021968599</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1713021968599</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,8 +396,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="beverages" />
-    <MESSAGE value="composite exercise setup / duplicate" />
     <MESSAGE value="java reflection for testing" />
     <MESSAGE value="cloud config testing using stub" />
     <MESSAGE value="testing private method using reflection" />
@@ -410,6 +419,18 @@
     <MESSAGE value="universal comparator done" />
     <MESSAGE value="enhanced hand class done (sorted)" />
     <MESSAGE value="sorted hand class done" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorted hand class done" />
+    <MESSAGE value="optional cat example" />
+    <MESSAGE value="using optional&lt;T&gt; to implement black and white joker" />
+    <option name="LAST_COMMIT_MESSAGE" value="using optional&lt;T&gt; to implement black and white joker" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
