@@ -1,5 +1,7 @@
 package ca.mcgill.cs.swdesign.unittesting.bicardsource;
 
+import java.util.HashMap;
+
 public class Card {
     public enum Rank {
         ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING
@@ -8,6 +10,7 @@ public class Card {
         CLUBS, DIAMONDS, SPADES, HEARTS;
     }
 
+    private static final HashMap<Integer, Card> mp = new HashMap<>();
 
     private Rank aRank;
     private Suit aSuit;
@@ -38,5 +41,23 @@ public class Card {
      */
     public Suit getSuit() {
         return aSuit;
+    }
+
+    public static Card getCardFromFactory(Rank r , Suit s ){
+        int key = r.hashCode() + s.hashCode();
+        System.out.println(Suit.DIAMONDS.hashCode() + " " + s.hashCode());
+        if (mp.containsKey(key)){
+            return mp.get(key);
+        }
+        else{
+            Card c = new Card(r,s);
+            mp.put(key,c);
+            return c;
+        }
+
+    }
+
+    public static void main(String[] args) {
+        Card.getCardFromFactory(Rank.FOUR, Suit.CLUBS);
     }
 }
