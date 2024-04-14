@@ -1,6 +1,8 @@
-package ca.mcgill.cs.swdesign.command.concertshows;
+package ca.mcgill.cs.swdesign.command.showdecoupled;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.EnumMap;
+import java.util.Iterator;
 
 /**
  * Chapter 6 Exercise 19
@@ -8,12 +10,20 @@ import java.util.*;
  *  * client can add, remove, clear on instance of program
  *  * and be able to undoLast()
  *  * Avoid pushing Program to a god class and decouple program from command processing
- *  check command/showdecoupled
+ *
+ *
+ *  Steps:
+ *  command factory methods made private
+ *  program's methods create command objects and ask processor to execute
  */
 public class Program
 {
     private final EnumMap<Day, Show> aShows = new EnumMap<>(Day.class);
     private final CommandProcessor cp = new CommandProcessor();
+
+    public void undoLast(){
+        cp.undoLast();
+    }
 
     private static final Show NULLSHOW = createNullShow();
     private static Show createNullShow(){
@@ -44,41 +54,19 @@ public class Program
 
     public void clear()
     {
-        for (Day d : Day.values()){
-            aShows.put(d, NULLSHOW);
-        }
+        cp.executeCommand(createClearCommand());
     }
-
-    /**
-     * Adds a new show to the program. Overrides any existing show
-     * on that day.
-     * @param pShow The show to add.
-     * @param pDay The day when the show takes place.
-     */
     public void add(Show pShow, Day pDay)
     {
         assert pShow != null && pDay != null;
-        // TODO
-        aShows.put(pDay, pShow);
+        cp.executeCommand(createAddCommand(pShow,pDay));
     }
-
-
-    /**
-     * Removes a show from the program.
-     * @param pDay The day when we want to zap the show.
-     */
     public void remove(Day pDay)
     {
         assert pDay != null;
-        // TODO
-        //aShows.remove(pDay);
-        aShows.put(pDay, NULLSHOW);
+        cp.executeCommand(createRemoveCommand(pDay));
     }
 
-    /**
-     * @param pDay The day of the requested show.
-     * @return A copy of the show on a given day.
-     */
     public Show get(Day pDay)
     {
         assert pDay != null;
@@ -92,44 +80,50 @@ public class Program
      * @param d the day that the show is added to
      * @return
      */
-    public Command createAddCommand(Show s,Day d) {
+    private Command createAddCommand(Show s, Day d) {
         return new Command() {
 
             @Override
             public void execute() {
-                add(s,d);
+                aShows.put(d, s);
             }
 
             @Override
             public void undo() {
-                remove(d);
+
+                aShows.put(d, NULLSHOW);
+
             }
         };
     }
 
-    public Command createRemoveCommand(Day day ){
+    private Command createRemoveCommand(Day day ){
         return new Command() {
-            Show copy = get(day);
+
+            Show copy = aShows.get(day);
             @Override
             public void execute() {
-                remove(day);
+                aShows.put(day, NULLSHOW);
             }
 
             @Override
             public void undo() {
-                add(copy, day);
+                aShows.put(day,copy);
             }
         };
     }
 
-    public Command createClearCommand(){
+    private Command createClearCommand(){
         return new Command() {
             EnumMap<Day, Show> copiedEnumMap = copyMap();
             @Override
             public void execute() {
-                clear();
-            }
 
+                for(Day d: aShows.keySet()){
+                    aShows.put(d,NULLSHOW);
+
+                }
+            }
             @Override
             public void undo() {
                 aShows.putAll(copiedEnumMap);
@@ -137,7 +131,7 @@ public class Program
         };
     }
 
-    private EnumMap<Day,Show> copyMap(){
+    private EnumMap<Day, Show> copyMap(){
         EnumMap<Day, Show> copiedEnumMap = new EnumMap<>(Day.class);
         copiedEnumMap.putAll(aShows);
         return copiedEnumMap;

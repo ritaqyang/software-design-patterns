@@ -1,7 +1,5 @@
-package ca.mcgill.cs.swdesign.command.concertshows;
+package ca.mcgill.cs.swdesign.command.showdecoupled;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 /**
@@ -21,7 +19,6 @@ import java.util.Stack;
  * client can add, remove, clear on instance of program
  * and be able to undoLast()
  * Avoid pushing Program to a god class and decouple program from command processing
- * check command/showdecoupled
  */
 public class CommandProcessor {
 
