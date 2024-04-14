@@ -5,12 +5,6 @@ import java.util.*;
 public class Deck implements Iterable<Card>
 {
     private List<Card> aCards = new ArrayList<>();
-
-    /**
-     * Copy Constructor. Create a Deck instance with the same state of the input Deck
-     * @param pDeck the target of the Deck instance to copy
-     * @pre pDeck!=null
-     */
     public Deck(Deck pDeck)
     {
         assert pDeck!= null;
@@ -22,11 +16,15 @@ public class Deck implements Iterable<Card>
 
     /**
      * @return An unmodifiable list of all the cards in the deck.
+     * other option is to return a copy of aCards
+     * Shallow copy is fine because cards are immutable
      */
     public List<Card> getCards()
     {
         return Collections.unmodifiableList(aCards);
     }
+
+    public List<Card> getCards2() {return new ArrayList<>(aCards); }
 
     /**
      * 	Creates a new deck of 52 cards, shuffled.

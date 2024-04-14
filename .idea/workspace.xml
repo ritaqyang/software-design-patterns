@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="command processor encapsulated in program">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/concert/Show.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/gaming/BaseGameLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/gaming/DiabloLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/gaming/WorldOfWarcraftLoader.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="template pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Game2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Game2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/comparator/hands/midtermquestion/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/encapsulation/deck/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/encapsulation/deck/Card.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +42,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "OverrideImplement.generate.javadoc": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/command/showcommand",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/command/showcommand&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ca.mcgill.cs.swdesign.mvc.store" />
@@ -160,13 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709921440230</updated>
-    </task>
-    <task id="LOCAL-00009" summary="equals() card with design">
-      <created>1710105862657</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1710105862657</updated>
     </task>
     <task id="LOCAL-00010" summary="laptop">
       <created>1710595170407</created>
@@ -504,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713057338174</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="template pattern">
+      <created>1713109286788</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1713109286789</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" GUI, MVC practice + chapter 6 exercise 7/8 setup" />
     <MESSAGE value=" unpacking without changing show interface" />
     <MESSAGE value=" unpacking by changing show interface, show extends Iterable&lt;Show&gt;" />
     <MESSAGE value="visitor pattern" />
@@ -544,7 +544,8 @@
     <MESSAGE value="command pattern + undo() fpr add, remove, clear commands" />
     <MESSAGE value="command processor done" />
     <MESSAGE value="command processor encapsulated in program" />
-    <option name="LAST_COMMIT_MESSAGE" value="command processor encapsulated in program" />
+    <MESSAGE value="template pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="template pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

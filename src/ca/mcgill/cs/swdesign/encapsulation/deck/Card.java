@@ -14,7 +14,11 @@ public class Card {
      */
     public enum Suit
     {
-        CLUBS, DIAMONDS, SPADES, HEARTS
+        CLUBS(Color.BLACK), DIAMONDS(Color.RED), SPADES(Color.BLACK), HEARTS(Color.RED);
+        private Color aColor;
+        public enum Color {BLACK, RED}
+        Suit(Color c){ aColor = c; } //implicit private access
+        public Color getColor(){ return aColor; }
     }
 
     private final Rank aRank;

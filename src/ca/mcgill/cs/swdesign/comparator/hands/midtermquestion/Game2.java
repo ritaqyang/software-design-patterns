@@ -1,6 +1,7 @@
 package ca.mcgill.cs.swdesign.comparator.hands.midtermquestion;
 
 import java.util.Arrays;
+import java.util.Iterator;
 
 public class Game2
 {
@@ -16,7 +17,7 @@ public class Game2
 
         System.out.println("--------------Initialized  8 complete hands of 10 cards --------------");
 
-        Arrays.sort(hands, Hand.createByRankComparator(Card.Rank.ACE));
+        Arrays.sort(hands, Hand.createByRankComparator(Card.Rank.THREE));
 
         System.out.println("--------------After Sorting--------------");
 
@@ -30,7 +31,16 @@ public class Game2
 
     public static void main(String[] args)
     {
+
+
         new Game2();
+        //use iterator
+        Hand hand = new Hand();
+        Iterator<Card> cardIterator = hand.iterator();
+        while (cardIterator.hasNext()){
+            Card c = cardIterator.next();
+            System.out.print(c);
+        }
     }
 
 

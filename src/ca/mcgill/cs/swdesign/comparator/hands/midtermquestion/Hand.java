@@ -1,9 +1,7 @@
 package ca.mcgill.cs.swdesign.comparator.hands.midtermquestion;
 
 import java.io.StringWriter;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.Random;
+import java.util.*;
 
 /** todo:  winter 2016 midterm question
 
@@ -19,7 +17,7 @@ todo: your solution should include the strategy design pattern and an object fac
 
 
  */
-public class Hand implements Iterable<Card>, Comparable<Hand> {
+public class Hand implements Iterable<Card> {
 
     private Card[] aCards = new Card[10]; //if arraylist can use default iterator
     //assume the cards are initialized somehow, you don't have to provide code to do this
@@ -74,19 +72,26 @@ public class Hand implements Iterable<Card>, Comparable<Hand> {
 
     }
     // Implement Iterable interface
+//    @Override
+//    public Iterator<Card> iterator() {
+//        return new Iterator<Card>() {
+//            private int index = 0;
+//            @Override
+//            public boolean hasNext() {
+//                return index < aCards.length;
+//            }
+//            @Override
+//            public Card next() {
+//                return aCards[index++];
+//            }
+//        };
+//    }
+
+
     @Override
     public Iterator<Card> iterator() {
-        return new Iterator<Card>() {
-            private int index = 0;
-            @Override
-            public boolean hasNext() {
-                return index < aCards.length;
-            }
-            @Override
-            public Card next() {
-                return aCards[index++];
-            }
-        };
+        List<Card> cardList = Arrays.asList(aCards);
+        return cardList.iterator();
     }
 
     @Override
@@ -98,11 +103,5 @@ public class Hand implements Iterable<Card>, Comparable<Hand> {
             writer.append(card.toString() + "\n");
         }
         return writer.toString();
-    }
-
-
-    @Override
-    public int compareTo(Hand o) {
-        return 0;
     }
 }
