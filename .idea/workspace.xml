@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="completed chapter 6 exercise 8, 11, 12, 13(comments in client.java)">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Program.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="nullshow in program">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/CompositeShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Concert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/IntroducedShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Show.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/TestCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/TestCompositeShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/TestConcert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +59,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/composite2/deepcopy",
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/command",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -58,11 +69,11 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/cards2" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/nullobject/strategycomparehand" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/nullobject/cards" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/optionaltype/whiteblackjoker" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
@@ -157,13 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709921440230</updated>
-    </task>
-    <task id="LOCAL-00005" summary="started songFactory, finished flyweight coffeeshop">
-      <created>1710007126167</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1710007126167</updated>
     </task>
     <task id="LOCAL-00006" summary="Music Library module finished">
       <created>1710089930420</created>
@@ -501,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713049085167</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="nullshow in program">
+      <created>1713050481904</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1713050481904</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="observer pattern: deck, push method, observable deck as a subclass of deck" />
     <MESSAGE value="comparable, iterable" />
     <MESSAGE value="ascending order cards" />
     <MESSAGE value="byrank comparator, anonymous function, factory method" />
@@ -541,7 +551,8 @@
     <MESSAGE value="100% branch and statement coverage" />
     <MESSAGE value="bicardsource test suite" />
     <MESSAGE value="completed chapter 6 exercise 8, 11, 12, 13(comments in client.java)" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed chapter 6 exercise 8, 11, 12, 13(comments in client.java)" />
+    <MESSAGE value="nullshow in program" />
+    <option name="LAST_COMMIT_MESSAGE" value="nullshow in program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
