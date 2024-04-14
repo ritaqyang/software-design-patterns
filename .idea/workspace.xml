@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="nullshow in program">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/CompositeShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Concert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/IntroducedShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/Show.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/TestCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/TestCompositeShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/concertshows/TestConcert.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="command processor encapsulated in program">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/concert/Show.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/gaming/BaseGameLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/gaming/DiabloLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/gaming/WorldOfWarcraftLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/command",
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/command/showcommand",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -69,11 +61,11 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/showcommand" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/cards2" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/nullobject/strategycomparehand" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/nullvalues/nullobject/cards" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
@@ -168,27 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709921440230</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Music Library module finished">
-      <created>1710089930420</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1710089930420</updated>
-    </task>
-    <task id="LOCAL-00007" summary="reorganized">
-      <created>1710091318944</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1710091318944</updated>
-    </task>
-    <task id="LOCAL-00008" summary="vending machine flyweight done">
-      <created>1710092377815</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1710092377815</updated>
     </task>
     <task id="LOCAL-00009" summary="equals() card with design">
       <created>1710105862657</created>
@@ -512,7 +483,28 @@
       <option name="project" value="LOCAL" />
       <updated>1713050481904</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="command pattern + undo() fpr add, remove, clear commands">
+      <created>1713055254730</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1713055254731</updated>
+    </task>
+    <task id="LOCAL-00056" summary="command processor done">
+      <created>1713056032637</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1713056032637</updated>
+    </task>
+    <task id="LOCAL-00057" summary="command processor encapsulated in program">
+      <created>1713057338174</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1713057338174</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -527,9 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comparable, iterable" />
-    <MESSAGE value="ascending order cards" />
-    <MESSAGE value="byrank comparator, anonymous function, factory method" />
     <MESSAGE value=" GUI, MVC practice + chapter 6 exercise 7/8 setup" />
     <MESSAGE value=" unpacking without changing show interface" />
     <MESSAGE value=" unpacking by changing show interface, show extends Iterable&lt;Show&gt;" />
@@ -552,7 +541,10 @@
     <MESSAGE value="bicardsource test suite" />
     <MESSAGE value="completed chapter 6 exercise 8, 11, 12, 13(comments in client.java)" />
     <MESSAGE value="nullshow in program" />
-    <option name="LAST_COMMIT_MESSAGE" value="nullshow in program" />
+    <MESSAGE value="command pattern + undo() fpr add, remove, clear commands" />
+    <MESSAGE value="command processor done" />
+    <MESSAGE value="command processor encapsulated in program" />
+    <option name="LAST_COMMIT_MESSAGE" value="command processor encapsulated in program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
