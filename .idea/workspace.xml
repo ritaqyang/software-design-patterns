@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="template - final review vehicle example">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/CanReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/AbstractVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/IVisitable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/OrgNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/PrintVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/SearchVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/Visitor.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="prototype design pattern review">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/liskov/deck/CardStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/liskov/deck/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/liskov/deck/DrawBestDeck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Sheep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/shapemanager/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/shapemanager/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ca.mcgill.cs.swdesign.liskov.vehicle" />
       <recent name="ca.mcgill.cs.swdesign.mvc.store" />
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
@@ -173,20 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709921440230</updated>
-    </task>
-    <task id="LOCAL-00013" summary="inheritance methods and constructors">
-      <created>1710603463995</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1710603463995</updated>
-    </task>
-    <task id="LOCAL-00014" summary="abstract class recipe">
-      <created>1710604557487</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1710604557487</updated>
     </task>
     <task id="LOCAL-00015" summary="encapsulation info leaking examples">
       <created>1710605977670</created>
@@ -517,7 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713162337557</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="added examples">
+      <created>1713165792594</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1713165792595</updated>
+    </task>
+    <task id="LOCAL-00063" summary="prototype design pattern review">
+      <created>1713165828155</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1713165828156</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -532,8 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prototype pattern" />
-    <MESSAGE value="universal comparator done" />
     <MESSAGE value="enhanced hand class done (sorted)" />
     <MESSAGE value="sorted hand class done" />
     <MESSAGE value="optional cat example" />
@@ -557,7 +542,9 @@
     <MESSAGE value="push method doesn't have dependency so no need to create deckview" />
     <MESSAGE value="equals testing, weather observer example" />
     <MESSAGE value="template - final review vehicle example" />
-    <option name="LAST_COMMIT_MESSAGE" value="template - final review vehicle example" />
+    <MESSAGE value="added examples" />
+    <MESSAGE value="prototype design pattern review" />
+    <option name="LAST_COMMIT_MESSAGE" value="prototype design pattern review" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

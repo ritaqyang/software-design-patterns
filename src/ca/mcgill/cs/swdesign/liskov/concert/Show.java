@@ -1,4 +1,4 @@
-package ca.mcgill.cs.swdesign.template.concert;
+package ca.mcgill.cs.swdesign.liskov.concert;
 
 public interface Show extends Iterable<Show> {
 
