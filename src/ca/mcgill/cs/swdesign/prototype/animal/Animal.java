@@ -3,5 +3,5 @@ package ca.mcgill.cs.swdesign.prototype.animal;
 public interface Animal extends Cloneable{
     //instances are stored in diff place in memory
 
-    public Animal makeCopy();
+    Animal makeCopy();
 }

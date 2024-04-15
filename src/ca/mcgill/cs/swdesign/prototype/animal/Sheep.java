@@ -1,6 +1,6 @@
 package ca.mcgill.cs.swdesign.prototype.animal;
 
-public class Sheep implements  Animal  {
+public class Sheep implements Animal  {
     public Sheep(){
         System.out.println("Sheep is made");
     }
