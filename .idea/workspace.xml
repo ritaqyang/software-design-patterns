@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="equals testing, weather observer example">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/q4/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/q4/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/q4/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/q4undone/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/q4undone/Truck.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="template - final review vehicle example">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/CanReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/AbstractVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/IVisitable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/OrgNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/PrintVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/SearchVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/visitor/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/animal/Sheep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/shapemanager/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/prototype/shapemanager/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +64,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/template",
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/mvc",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -62,11 +74,11 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/mvc" />
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/visitor/" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/push2" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/showcommand" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
@@ -161,13 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709921440230</updated>
-    </task>
-    <task id="LOCAL-00012" summary="composite pattern for shapes and composite shape">
-      <created>1710600042695</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1710600042695</updated>
     </task>
     <task id="LOCAL-00013" summary="inheritance methods and constructors">
       <created>1710603463995</created>
@@ -505,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713160800204</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="template - final review vehicle example">
+      <created>1713162337557</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1713162337557</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="visitor pattern" />
     <MESSAGE value="prototype pattern" />
     <MESSAGE value="universal comparator done" />
     <MESSAGE value="enhanced hand class done (sorted)" />
@@ -545,7 +556,8 @@
     <MESSAGE value="template pattern" />
     <MESSAGE value="push method doesn't have dependency so no need to create deckview" />
     <MESSAGE value="equals testing, weather observer example" />
-    <option name="LAST_COMMIT_MESSAGE" value="equals testing, weather observer example" />
+    <MESSAGE value="template - final review vehicle example" />
+    <option name="LAST_COMMIT_MESSAGE" value="template - final review vehicle example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
