@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="push method doesn't have dependency so no need to create deckview">
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/SponsoredConcert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/TestIntroducedShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/TestSponsoredConcert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/weathertracker/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/weathertracker/HumidityObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/weathertracker/TempObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/weathertracker/WeatherObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/weathertracker/WeatherTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/weathertracker/WeatherTrackerView.java" afterDir="false" />
+    <list default="true" id="ea701c70-27c6-4a9a-924b-7175a826334c" name="Changes" comment="equals testing, weather observer example">
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/q4/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/q4/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/q4/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/q4undone/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/q4undone/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Concert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/Concert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/IntroducedShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy/IntroducedShow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/pulldeck/DrawLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/pulldeck/DrawLogger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/observer/deck/push2",
+    "last_opened_file_path": "/Users/ritayang/comp303_practice/src/ca/mcgill/cs/swdesign/template",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -69,11 +62,11 @@
       <recent name="ca.mcgill.cs.swdesign.composite.amazonbox" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template/" />
+      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/template" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/observer/deck/push2" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command/showcommand" />
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/command" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/composite2/deepcopy" />
-      <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign/flyweight/cards2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/mcgill/cs/swdesign" />
@@ -168,13 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709921440230</updated>
-    </task>
-    <task id="LOCAL-00011" summary="composite box for product delivery">
-      <created>1710597821992</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1710597821993</updated>
     </task>
     <task id="LOCAL-00012" summary="composite pattern for shapes and composite shape">
       <created>1710600042695</created>
@@ -512,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713155519382</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="equals testing, weather observer example">
+      <created>1713160800204</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1713160800204</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -527,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" unpacking by changing show interface, show extends Iterable&lt;Show&gt;" />
     <MESSAGE value="visitor pattern" />
     <MESSAGE value="prototype pattern" />
     <MESSAGE value="universal comparator done" />
@@ -552,7 +544,8 @@
     <MESSAGE value="command processor encapsulated in program" />
     <MESSAGE value="template pattern" />
     <MESSAGE value="push method doesn't have dependency so no need to create deckview" />
-    <option name="LAST_COMMIT_MESSAGE" value="push method doesn't have dependency so no need to create deckview" />
+    <MESSAGE value="equals testing, weather observer example" />
+    <option name="LAST_COMMIT_MESSAGE" value="equals testing, weather observer example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
