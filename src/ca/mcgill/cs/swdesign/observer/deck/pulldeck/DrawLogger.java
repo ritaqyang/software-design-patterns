@@ -5,26 +5,18 @@ package ca.mcgill.cs.swdesign.observer.deck.pulldeck;
  */
 public class DrawLogger implements Observer {
 
-    /**
-     *
-     */
     @Override
     public void shuffled(DeckView d) {
         //do nothing
     }
 
-    /**
-     * @param c
-     */
+
     @Override
     public void cardDrawn(DeckView d) {
         System.out.println(d.getLastDrawn() + "is drawn");
 
     }
 
-    /**
-     * @param c
-     */
     @Override
     public void cardPushed(DeckView d) {
 

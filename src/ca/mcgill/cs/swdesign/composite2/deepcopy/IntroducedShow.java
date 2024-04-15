@@ -44,6 +44,10 @@ public class IntroducedShow implements Show {
     }
 
     @Override
+    public int hashCode(){
+        return Objects.hash(speaker, introTime, show);
+    }
+    @Override
     public boolean equals(Object o){
         if (o == this){ return true; }
         if (o.getClass() != this.getClass()){ return false;}
@@ -51,4 +55,5 @@ public class IntroducedShow implements Show {
         IntroducedShow other = (IntroducedShow) o;
         return Objects.equals(other.show, this.show) && (other.speaker == speaker) && (other.introTime == introTime);
     }
+
 }

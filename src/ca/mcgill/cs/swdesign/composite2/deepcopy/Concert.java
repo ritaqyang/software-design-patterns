@@ -13,6 +13,8 @@ public class Concert implements Show {
         this.concertDuration = concertDuration;
     }
 
+    public String getArtistName(){return artistName; }
+
     @Override
     public String description() {
         return "Concert by artist : " + artistName;
